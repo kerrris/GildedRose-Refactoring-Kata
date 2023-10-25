@@ -27,7 +27,7 @@ class GildedRose {
             increaseQuality(item);
         } else if (BACKSTAGE.equals(item.name)) {
             item.quality = 0;
-        } else if (SUlFURAS.equals(item.name)) {
+        } else if (SULFURAS.equals(item.name)) {
             return;
         } else {
             decreaseQuality(item);
@@ -53,7 +53,7 @@ class GildedRose {
     }
 
     private static void updateSellIn(Item item) {
-        if (SUlFURAS.equals(item.name)) {
+        if (SULFURAS.equals(item.name)) {
             return;
         }
         item.sellIn--;
